@@ -46,6 +46,8 @@ static const Layout layouts[] = {
  	{ "[\\]",     dwindle },
 
 	{ "><>",      NULL },    /* no layout function means floating behavior */
+	{ "[M]",      monocle },
+	{ "[D]",      deck },
 };
 
 /* key definitions */
